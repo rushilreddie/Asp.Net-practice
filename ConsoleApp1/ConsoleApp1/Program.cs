@@ -30,7 +30,7 @@ namespace Calculator
             Console.Write("Your option? ");
 
             // Use a switch statement to do the math.
-            switch (Console.ReadLine())
+            switch for (Console.ReadLine())
             {
                 case "a":
                     Console.WriteLine($"Your result: {num1} + {num2} = " + (num1 + num2));
@@ -45,8 +45,16 @@ namespace Calculator
                     Console.WriteLine($"Your result: {num1} / {num2} = " + (num1 / num2));
                     break;
             }
-            // Wait for the user to respond before closing.
-            Console.Write("Press any key to close the Calculator console app...");
+            while (num2 == 0)
+            {
+                Console.WriteLine("Enter a non-zero divisor: ");
+                num2 = Convert.ToInt32(Console.ReadLine());
+            }
+            Console.WriteLine($"Your result: {num1} / {num2} = " + (num1 / num2));
+            break;
+        }
+        // Wait for the user to respond before closing.
+        Console.Write("Press any key to close the Calculator console app...");
             Console.ReadKey();
         }
     }
