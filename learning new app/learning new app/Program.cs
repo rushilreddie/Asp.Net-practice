@@ -4,39 +4,28 @@
 using System;
 class Program
 {
-    static void Main(string[] args)
+    private void Sort(int[] arr)
     {
-        int array_size = 10;
-        int[] array = new int[10] { 100, 50, 20, 40, 10, 60, 80, 70, 90, 30 };
-        Console.WriteLine("The Array Before Selection Sort is: ");
-        for (int i = 0; i < array_size; i++)
+        int i, j, min;
+        for (i = 0; i < arr.Length; i++)
         {
-            Console.WriteLine(array[i]);
-        }
-        int tmp, min_key;
-
-        for (int j = 0; j < array_size - 1; j++)
-        {
-            min_key = j;
-
-            for (int k = j + 1; k < array_size; k++)
+            min = i;
+            for (j = 0; j < arr.Length; j++)
             {
-                if (array[k] < array[min_key])
+                if (arr[j] > arr[min])
                 {
-                    min_key = k;
+                    min = j;
+                    Swap(ref arr[i], ref arr[min]);
                 }
             }
-
-            tmp = array[min_key];
-            array[min_key] = array[j];
-            array[j] = tmp;
         }
-
-        Console.WriteLine("The Array After Selection Sort is: ");
-        for (int i = 0; i < 10; i++)
-        {
-            Console.WriteLine(array[i]);
-        }
-        Console.ReadLine();
     }
-}
+
+    private void Swap(ref int x, ref int y)
+    {
+        int temp = x;
+        x = y;
+        y = temp;
+    }
+
+
