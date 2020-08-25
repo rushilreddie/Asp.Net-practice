@@ -1,0 +1,7 @@
+E:\2020 webdevelopment bootcamp\asp.net\sample application\sample application\bin\Debug\sample application.exe.config
+E:\2020 webdevelopment bootcamp\asp.net\sample application\sample application\bin\Debug\sample application.exe
+E:\2020 webdevelopment bootcamp\asp.net\sample application\sample application\bin\Debug\sample application.pdb
+E:\2020 webdevelopment bootcamp\asp.net\sample application\sample application\obj\Debug\sample application.csprojAssemblyReference.cache
+E:\2020 webdevelopment bootcamp\asp.net\sample application\sample application\obj\Debug\sample application.csproj.CoreCompileInputs.cache
+E:\2020 webdevelopment bootcamp\asp.net\sample application\sample application\obj\Debug\sample application.exe
+E:\2020 webdevelopment bootcamp\asp.net\sample application\sample application\obj\Debug\sample application.pdb
