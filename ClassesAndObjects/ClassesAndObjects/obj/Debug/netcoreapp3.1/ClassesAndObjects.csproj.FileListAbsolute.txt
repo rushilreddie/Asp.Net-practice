@@ -1,0 +1,13 @@
+C:\Learning\asp.netpractice\ClassesAndObjects\ClassesAndObjects\obj\Debug\netcoreapp3.1\ClassesAndObjects.csprojAssemblyReference.cache
+C:\Learning\asp.netpractice\ClassesAndObjects\ClassesAndObjects\obj\Debug\netcoreapp3.1\ClassesAndObjects.AssemblyInfoInputs.cache
+C:\Learning\asp.netpractice\ClassesAndObjects\ClassesAndObjects\obj\Debug\netcoreapp3.1\ClassesAndObjects.AssemblyInfo.cs
+C:\Learning\asp.netpractice\ClassesAndObjects\ClassesAndObjects\obj\Debug\netcoreapp3.1\ClassesAndObjects.csproj.CoreCompileInputs.cache
+C:\Learning\asp.netpractice\ClassesAndObjects\ClassesAndObjects\bin\Debug\netcoreapp3.1\ClassesAndObjects.exe
+C:\Learning\asp.netpractice\ClassesAndObjects\ClassesAndObjects\bin\Debug\netcoreapp3.1\ClassesAndObjects.deps.json
+C:\Learning\asp.netpractice\ClassesAndObjects\ClassesAndObjects\bin\Debug\netcoreapp3.1\ClassesAndObjects.runtimeconfig.json
+C:\Learning\asp.netpractice\ClassesAndObjects\ClassesAndObjects\bin\Debug\netcoreapp3.1\ClassesAndObjects.runtimeconfig.dev.json
+C:\Learning\asp.netpractice\ClassesAndObjects\ClassesAndObjects\bin\Debug\netcoreapp3.1\ClassesAndObjects.dll
+C:\Learning\asp.netpractice\ClassesAndObjects\ClassesAndObjects\bin\Debug\netcoreapp3.1\ClassesAndObjects.pdb
+C:\Learning\asp.netpractice\ClassesAndObjects\ClassesAndObjects\obj\Debug\netcoreapp3.1\ClassesAndObjects.dll
+C:\Learning\asp.netpractice\ClassesAndObjects\ClassesAndObjects\obj\Debug\netcoreapp3.1\ClassesAndObjects.pdb
+C:\Learning\asp.netpractice\ClassesAndObjects\ClassesAndObjects\obj\Debug\netcoreapp3.1\ClassesAndObjects.genruntimeconfig.cache
