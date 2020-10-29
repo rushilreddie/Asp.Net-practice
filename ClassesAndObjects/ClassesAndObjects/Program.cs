@@ -1,23 +1,21 @@
 ﻿using System;
 
-namespace ClassesAndObjects
+namespace CarsAndParts
 {
-    public class Person
+
+    public static class Program
     {
-        public string Name;
-   
-          public void Introduce(string to)
+        public static void Main()
         {
-            Console.WriteLine("Hi {0}, This is {1}", to, Name);
+            Car myToyota = new Car();
+            Console.WriteLine("plese put a key");
+            string mykey=Console.ReadLine();
+            string result = myToyota.Start(mykey);
+            Console.WriteLine(result);
+            Console.ReadLine();
+
         }
-       }
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            var person = new Person();
-            person.Name = "Rushil";
-            person.Introduce("Reddy");
-        }
+
     }
 }
+
