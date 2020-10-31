@@ -1,0 +1,7 @@
+C:\Learning\asp.netpractice\calculator\calculator\bin\Debug\calculator.exe.config
+C:\Learning\asp.netpractice\calculator\calculator\bin\Debug\calculator.exe
+C:\Learning\asp.netpractice\calculator\calculator\bin\Debug\calculator.pdb
+C:\Learning\asp.netpractice\calculator\calculator\obj\Debug\calculator.csprojAssemblyReference.cache
+C:\Learning\asp.netpractice\calculator\calculator\obj\Debug\calculator.csproj.CoreCompileInputs.cache
+C:\Learning\asp.netpractice\calculator\calculator\obj\Debug\calculator.exe
+C:\Learning\asp.netpractice\calculator\calculator\obj\Debug\calculator.pdb
