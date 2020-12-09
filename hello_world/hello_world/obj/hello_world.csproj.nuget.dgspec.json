@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rajar\\Desktop\\hello_world\\hello_world\\hello_world.csproj": {}
+    "C:\\Learning\\asp.netpractice\\hello_world\\hello_world\\hello_world.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rajar\\Desktop\\hello_world\\hello_world\\hello_world.csproj": {
+    "C:\\Learning\\asp.netpractice\\hello_world\\hello_world\\hello_world.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rajar\\Desktop\\hello_world\\hello_world\\hello_world.csproj",
+        "projectUniqueName": "C:\\Learning\\asp.netpractice\\hello_world\\hello_world\\hello_world.csproj",
         "projectName": "hello_world",
-        "projectPath": "C:\\Users\\rajar\\Desktop\\hello_world\\hello_world\\hello_world.csproj",
+        "projectPath": "C:\\Learning\\asp.netpractice\\hello_world\\hello_world\\hello_world.csproj",
         "packagesPath": "C:\\Users\\rajar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rajar\\Desktop\\hello_world\\hello_world\\obj\\",
+        "outputPath": "C:\\Learning\\asp.netpractice\\hello_world\\hello_world\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rajar\\AppData\\Roaming\\NuGet\\NuGet.Config",
