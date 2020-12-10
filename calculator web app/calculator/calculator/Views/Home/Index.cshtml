@@ -1,0 +1,63 @@
+﻿@model LearningForms.Models.Customer
+@{
+    ViewData["Title"] = "Calculator";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Sample time</h2>
+<p>@ViewData["DateTime"]</p>
+
+<h1>Hello world</h1>
+
+<input type="text" id="num1" name="num1" />
+<br />
+<input type="text" id="num2" name="num2" />
+<br />
+
+<p id="result" name="r1">
+    <button class="add" onclick="calculate()">+</button>
+    <button class="subtract" onclick="calculate()">-</button>
+    <button class="divide" onclick="calculate()">/</button>
+    <button class="multiply" onclick="calculate()">*</button>
+    <br />
+</p>
+
+<script>
+    function calculate() {
+        var A = document.getElementById("num1").value;
+
+        var B = document.getElementById("num2").value;
+
+        var additionresult = parseInt(parseInt(A) + parseInt(B));
+        var subtractionresult = parseInt(A - B);
+        var multiplyresult = parseInt(A * B);
+        var divideresult = parseInt(A / B);
+
+        document.getElementById("result").innerText = additionresult;
+        //document.getElementById("result").innerText = subtractionresult;
+        //document.getElementById("result").innerText = multiplyresult;
+        //document.getElementById("result").innerText = divideresult;
+    }
+
+</script>
+
+@using (Html.BeginForm("GetcustomerData", "Home", FormMethod.Post)) {
+<input type="text" class="name" name="Name" />
+<input type="number" class="number" name="Number" />
+
+<input type="submit" value="Submit" />
+}
+
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Number</th>
+    </tr>
+    <tr>
+        <td>@Model?.Name</td>
+        <td>@Model?.Number</td>
+    </tr>
+</table>
