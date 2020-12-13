@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "qWhh6Y1ToNxl9QMEolJkyHDQtgzTYU1glqv5WBZ5X8GHb1U43qiE29+7GML/JciQvIpvuJWMwK1v/xY+g7zjNQ==",
+  "dgSpecHash": "2DfoLMe/RL/UieWPdGeInklPJ+Mtx9D2J52I+ffa519d2BBOkBuFaqvM33sKp2f0SVL0sNCFiAFq3PJvtib3Ag==",
   "success": true,
   "projectFilePath": "C:\\Learning\\asp.netpractice\\customer-page\\customerdetails\\customerdetails\\customerdetails.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\rajar\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\rajar\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.10\\microsoft.netcore.app.host.win-x64.3.1.10.nupkg.sha512"
+  ],
   "logs": []
 }

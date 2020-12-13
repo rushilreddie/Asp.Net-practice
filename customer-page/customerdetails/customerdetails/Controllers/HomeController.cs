@@ -11,10 +11,7 @@ namespace customerdetails.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
-        private string lname;
-        private string address;
-        private string fname;
+        private ILogger<HomeController> _logger;
 
         public HomeController(ILogger<HomeController> logger)
         {
@@ -29,17 +26,26 @@ namespace customerdetails.Controllers
         public ActionResult GetcustomerData(Customerform customerData)
         {
 
-            var mycustomerObject = new Customerform
+            //var mycustomerObject = new Customerform
+            //{
+            //    Fname = customerData.Fname,
+            //    Lname = customerData.Lname,
+            //    Address = customerData.Address,
+            //    DateTime = customerData.DateTime,
+            //    Gender = customerData.Gender
+            //};
+
+            //return View("index", mycustomerObject);
+
+            var mycustomerObject = new List<Customerform>()
             {
-                Fname = customerData.Fname,
-                Lname = customerData.Lname,
-                Address = customerData.Address,
-                DateTime = customerData.DateTime,
-                Gender = customerData.Gender
+               new Customerform { Fname = customerData.Fname },
+               new Customerform { Fname = "Sandeep",Lname = "CH",DateTime=DateTime.Now,Address="hgdfghf",Gender="m"},
+               new Customerform { Fname = "Rushil",Lname = "E",DateTime=DateTime.Now,Address="savasdfgasg",Gender="m"},
+               new Customerform { Fname = "Advaith",Lname = "CH",DateTime=DateTime.Now,Address="sdfbsdb",Gender="m"}
             };
 
-            return View("index", mycustomerObject);
-
+             return View("index", mycustomerObject);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
