@@ -1,61 +1,42 @@
-﻿@model customerdetails.Models.Customerform
+﻿@model customerdetails.Models.CustomerViewModel
 @{
 
     ViewData["Title"] = "Home Page";
 }
 
-<h1 class="display-4">Customer Form</h1>
-@using (Html.BeginForm("GetcustomerData", "Home", FormMethod.Post))
-{
-    <form action="/action_page.php" id="form">
-        @Html.Label("FirstName", "First Name")<br>
-        @Html.TextBoxFor(m => m.Fname) <br>
-
-        @Html.Label("LastName", "Last Name")<br>
-        @Html.TextBoxFor(m => m.Lname)<br>
-
-        @Html.Label("Address", "Address")<br>
-        @Html.TextBoxFor(m => m.Address)<br>
-
-        DateTime: <input class="form-control" asp-for="DateTime" />
-
-        <div class="col-md-10">
-            Male
-            @Html.RadioButtonFor(model => model.Gender, "Male")
-            Female
-            @Html.RadioButtonFor(model => model.Gender, "Female")
-        </div>
-
-        <button type="submit">Submit</button>
-    </form>
-}
 
 <table class="table">
     <thead>
-        <tr>
-            <th scope="col">#</th>
-            <th scope="col">First Name</th>
-            <th scope="col">Last Name</th>
-            <th scope="col">Address</th>
-            <th scope="col">Gender</th>
-            <th scope="col">Date Time</th>
-        </tr>
-    </thead>
+            <tr>
+                <th scope="col">Serial No:</th>
+                <th scope="col">first name</th>
+                <th scope="col">last name</th>
+                <th scope="col">address</th>
+                <th scope="col">gender</th>
+                <th scope="col">date time</th>
+            </tr>
+        </thead>
 
-    @foreach (var Customerform in Model.Fname)
+    @if (Model != null)
     {
 
-        <tbody>
-            <tr>
-                <th scope="row">1</th>
-                <td>@Model.Fname</td>
-                <td>@Model.Lname</td>
-                <td>@Model.Address</td>
-                <td>@Model.Gender</td>
-                <td>@Model.DateTime</td>
-            </tr>
-        </tbody>
+        @foreach (var customerForm in Model.Customerforms)
+        {
 
+            <tbody>
+                <tr>
+                    <td>
+                        @customerForm.ID
+                    </td>
+                    <td>@customerForm.Fname</td>
+                    <td>@customerForm.Lname</td>
+                    <td>@customerForm.Address</td>
+                    <td>@customerForm.Gender</td>
+                    <td>@customerForm.DateTime</td>
+                </tr>
+            </tbody>
+
+        }
     }
 </table>
 
