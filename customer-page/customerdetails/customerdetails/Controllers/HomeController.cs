@@ -35,16 +35,7 @@ namespace customerdetails.Controllers
         public ActionResult GetcustomerData(Customerform customerData)
         {
 
-            //var mycustomerObject = new Customerform
-            //{
-            //    Fname = customerData.Fname,
-            //    Lname = customerData.Lname,
-            //    Address = customerData.Address,
-            //    DateTime = customerData.DateTime,
-            //    Gender = customerData.Gender
-            //};
-
-            //return View("index", mycustomerObject);
+  
 
             var mycustomerObject = new List<Customerform>()
             {
