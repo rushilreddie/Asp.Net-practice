@@ -1,0 +1,32 @@
+﻿@model customerdetails.Models.Customerform
+
+@{
+    ViewData["Title"] = "createpage";
+}
+
+<h1 class="display-4">Customer Form</h1>
+@using (Html.BeginForm("GetcustomerData", "Home", FormMethod.Post))
+{
+    <form action="/action_page.php" id="form">
+        @Html.Label("FirstName", "First Name")<br>
+         @Html.TextBoxFor(m => m.Fname) <br>
+
+        @Html.Label("LastName", "Last Name")<br>
+        @Html.TextBoxFor(m => m.Lname)<br>
+
+        @Html.Label("Address", "Address")<br>
+        @Html.TextBoxFor(m => m.Address)<br>
+
+        DateTime: <input class="form-control" asp-for="DateTime" />
+
+
+        <div class="col-md-10">
+            Male
+            @Html.RadioButtonFor(model => model.Gender, "Male")
+            Female
+            @Html.RadioButtonFor(model => model.Gender, "female")
+        </div>
+
+        <button type="submit">Submit</button>
+    </form>
+}
